@@ -29,13 +29,18 @@ public class GloriousLotteryMachine {
         int d = 1 + lottoNum.nextInt(52);
         int e = 1 + lottoNum.nextInt(52);
         int f = 1 + lottoNum.nextInt(52);
+        int aa = 1 + lottoNum.nextInt(35);
+        int bb = 1 + lottoNum.nextInt(35);
+        int cc = 1 + lottoNum.nextInt(35);
+        int dd = 1 + lottoNum.nextInt(35);
+        int ee = 1 + lottoNum.nextInt(35);
         
         if (game.equalsIgnoreCase("lottery")) {
             JOptionPane.showMessageDialog(null, "Here are your numbers: "
                     + a + " " + b + " " + c + " " + d + " " + e + " " + f);
         } else if (game.equalsIgnoreCase("fantasy 5")) {
             JOptionPane.showMessageDialog(null, "Here are your numbers: "
-                    + a + " " + b + " " + c + " " + d + " " + e);
+                    + aa + " " + bb + " " + cc + " " + dd + " " + ee);
         } else {
             JOptionPane.showMessageDialog(null,
                     "Looks like you don't want to play");
