@@ -23,32 +23,24 @@ public class GloriousLotteryMachine {
                 + " Lottery or Fantasy 5");
 
         Random lottoNum = new Random();
-        int x = 1 + lottoNum.nextInt();
-
+        int a = 1 + lottoNum.nextInt(52);
+        int b = 1 + lottoNum.nextInt(52);
+        int c = 1 + lottoNum.nextInt(52);
+        int d = 1 + lottoNum.nextInt(52);
+        int e = 1 + lottoNum.nextInt(52);
+        int f = 1 + lottoNum.nextInt(52);
+        int aa = 1 + lottoNum.nextInt(35);
+        int bb = 1 + lottoNum.nextInt(35);
+        int cc = 1 + lottoNum.nextInt(35);
+        int dd = 1 + lottoNum.nextInt(35);
+        int ee = 1 + lottoNum.nextInt(35);
+        
         if (game.equalsIgnoreCase("lottery")) {
             JOptionPane.showMessageDialog(null, "Here are your numbers: "
-                    + lottoNum.nextInt(52)
-                    + " "
-                    + lottoNum.nextInt(52)
-                    + " "
-                    + lottoNum.nextInt(52)
-                    + " "
-                    + lottoNum.nextInt(52)
-                    + " "
-                    + lottoNum.nextInt(52)
-                    + " "
-                    + lottoNum.nextInt(52));
+                    + a + " " + b + " " + c + " " + d + " " + e + " " + f);
         } else if (game.equalsIgnoreCase("fantasy 5")) {
             JOptionPane.showMessageDialog(null, "Here are your numbers: "
-                    + lottoNum.nextInt(35)
-                    + " "
-                    + lottoNum.nextInt(35)
-                    + " "
-                    + lottoNum.nextInt(35)
-                    + " "
-                    + lottoNum.nextInt(35)
-                    + " "
-                    + lottoNum.nextInt(35));
+                    + aa + " " + bb + " " + cc + " " + dd + " " + ee);
         } else {
             JOptionPane.showMessageDialog(null,
                     "Looks like you don't want to play");
